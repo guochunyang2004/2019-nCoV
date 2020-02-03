@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <van-sticky>
-      <van-panel title="搜索" desc="" status="">
+      <van-panel title="搜索乘车人员感染车辆" desc="" status="">
         <div class="table">
           <div class="row">
             <div class="cell">车次：</div>
@@ -301,14 +301,14 @@ export default {
   font-size:16px;
   font-weight:bold;
 }
-.van-cell__label {
+.van-popup .van-cell__label {
   font-size:16px;
 }
-.van-panel__content div {
+.van-popup .van-panel__content div {
   text-align: left;
   padding-left:20px;
 }
-.van-panel__content label {
+.van-popup .van-panel__content label {
   width:100px;
   display: inline-block;
   text-align: left;
